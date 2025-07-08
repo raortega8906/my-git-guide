@@ -71,6 +71,15 @@ git commit -m "feat: crear CRUD básico para posts"
 git push origin feature/post-crud
 ```
 
+#### 1.1. Hacer merge:
+
+```bash
+git checkout main
+git pull origin main
+git merge feature/post-crud
+git push origin main
+```
+
 ### 2. Revisar tus cambios (auto pull request)
 
 Puedes hacer una revisión **aunque estés solo**. Así entrenas el ojo crítico.
